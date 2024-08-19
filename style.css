@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.banner-bg{
+    background-image: url(image/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 664px;
+    Top:  133px;
+    
+    
+
+}
+.banner-area{
+padding: 5% 0 0 5% ;
+}
+.banner-area h1{
+    background-color: white;
+    width: 359px;
+    height: 83px;
+    top: 236px;
+    left: 112px;
+    gap: 0px;
+    opacity: 0px;
+
+   letter-spacing: 15px;
+   padding: 20px;
+}
+.banner-area p{
+    background-color: white;
+    width: 499px;
+    padding: 50px;
+    letter-spacing: 1px;
+}
+.banner-services{
+    background-image: url(image/services.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 664px;
+    Top:  133px;
+}
+.services-area{
+    padding: 5% 0 0 5%;
+}
+.services-area h1{
+    background-color: white;
+    width: 359px;
+    height: 83px;
+    top: 236px;
+    left: 112px;
+    gap: 0px;
+    letter-spacing: 15px;
+    padding: 20px;
+}
+.services-area p{
+    background-color: white;
+    width: 1134px;
+    height: 93px;
+    top: 1692px;
+    left: 112px;
+    gap: 0px;
+    opacity: 0px;
+}
+.banner-about-us{
+    background-image: url(image/about-us.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 664px;
+    Top:  133px;
+}
+.about-us-area{
+    padding: 5% 0 0 5%;
+}
+.about-us-area h1{
+    background-color: white;
+    width: 359px;
+    height: 83px;
+    top: 236px;
+    left: 112px;
+    gap: 0px;
+    letter-spacing: 15px;
+    padding: 20px;
+}
+.about-us-area p{
+    background-color: white;
+    width: 1134px;
+    height: 93px;
+    top: 1692px;
+    left: 112px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+.banner-social{
+    background-image: url(image/social.png);   
+    background-repeat: no-repeat;
+  
+    height: 664px;
+    Top:  133px;
+}
+.social-area{
+    padding: 5% 0 0 5%;
+}
+.social-area h1{
+    background-color: white;
+    width: 491px;
+    height: 83px;
+    top: 236px;
+    left: 112px;
+    gap: 0px;
+    letter-spacing: 15px;
+    padding: 20px;
+}
+.social-area p{
+    background-color: white;
+    width: 430px;
+    height: 68px;
+    top: 1692px;
+    left: 112px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+.banner-instagram{
+    background-image: url(image/instagram.png);   
+    background-repeat: no-repeat; 
+
+    width: 492px;
+    height: 390px;
+    padding-left:20px;
+    
+}
+    
+    
+
+.instagram-area h1{
+   
+    width: 280px;
+    height: 83px;
+    padding: 50px 50px 50px 50px;
+    text-align: center;
+   
+}
+.banner-facebook{
+    background-image: url(image/facebook.png);   
+    background-repeat: no-repeat; 
+    width: 491px;
+    height: 390px;
+    padding-top: 50px;
+
+}
+
+.facebook-area h1{
+   width: 280px;
+    height: 83px;
+    padding: 20px;
+   
+}
+.banner-youtube{
+    background-image: url(image/youtube.png);   
+    background-repeat: no-repeat; 
+    width: 491px;
+    height: 390px;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;  
+}
+.facebook-area h1{
+    width: 280px;
+     height: 83px;
+    padding: 20px;
+    }
+
+
+.banner-twitter{
+    background-image: url(image/twitter.png);   
+    background-repeat: no-repeat; 
+    background-size: cover;
+    width: 491px;
+    height: 390px;
+    padding-left: 20px;
+}
+
+.twitter-area h1{
+    width: 280px;
+    height: 53px;
+    padding: 20pxs;
+  
+   
+}
+
+
+
