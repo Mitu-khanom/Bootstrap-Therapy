@@ -6,7 +6,7 @@
     margin: 0 auto;
     max-width: 1440px;
 }
-
+/* .banner-area-start */
 .banner-bg{
     background-image: url(image/banner.png);
     background-repeat: no-repeat;
@@ -38,6 +38,8 @@ padding: 5% 0 0 5% ;
     padding: 50px;
     letter-spacing: 1px;
 }
+/* banner-area-end */
+/* service-area-start */
 .banner-services{
     background-image: url(image/services.png);
     background-repeat: no-repeat;
@@ -67,15 +69,19 @@ padding: 5% 0 0 5% ;
     gap: 0px;
     opacity: 0px;
 }
+/* service-area-end */
+/* about-us-start */
 .banner-about-us{
     background-image: url(image/about-us.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 664px;
     Top:  133px;
+    
 }
 .about-us-area{
-    padding: 5% 0 0 5%;
+ padding-top:  20px; 
+ padding-bottom: 20px;
 }
 .about-us-area h1{
     background-color: white;
@@ -95,17 +101,25 @@ padding: 5% 0 0 5% ;
     left: 112px;
     gap: 0px;
     opacity: 0px;
-
 }
+/* about-us-end */
+ /* our-team-start */
+.our-team{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/* our-team-end */
+/* social-area-start */
 .banner-social{
     background-image: url(image/social.png);   
     background-repeat: no-repeat;
-  
+    padding-top: 20px;
     height: 664px;
     Top:  133px;
 }
 .social-area{
-    padding: 5% 0 0 5%;
+    padding-top: 20px;
 }
 .social-area h1{
     background-color: white;
@@ -125,75 +139,91 @@ padding: 5% 0 0 5% ;
     left: 112px;
     gap: 0px;
     opacity: 0px;
-
 }
-.banner-instagram{
-    background-image: url(image/instagram.png);   
-    background-repeat: no-repeat; 
-
-    width: 492px;
-    height: 390px;
-    padding-left:20px;
-    
-}
-    
-    
-
-.instagram-area h1{
-   
-    width: 280px;
-    height: 83px;
-    padding: 50px 50px 50px 50px;
+/* social-area-end */
+.showing{
     text-align: center;
-   
+    padding-top: 20px;
+    padding-bottom: 20px;
+    letter-spacing: 5px;
 }
-.banner-facebook{
-    background-image: url(image/facebook.png);   
-    background-repeat: no-repeat; 
-    width: 491px;
-    height: 390px;
-    padding-top: 50px;
-
-}
-
-.facebook-area h1{
-   width: 280px;
-    height: 83px;
-    padding: 20px;
-   
-}
-.banner-youtube{
-    background-image: url(image/youtube.png);   
-    background-repeat: no-repeat; 
-    width: 491px;
-    height: 390px;
-    padding-top: 50px;
-    padding-left: 20px;
-    padding-right: 20px;  
-}
-.facebook-area h1{
-    width: 280px;
-     height: 83px;
-    padding: 20px;
-    }
-
-
-.banner-twitter{
-    background-image: url(image/twitter.png);   
-    background-repeat: no-repeat; 
+/* box-area-start */
+.banner-card-1{
+    background-image: url(image/instagram.png);
     background-size: cover;
-    width: 491px;
-    height: 390px;
-    padding-left: 20px;
+    background-repeat:no-repeat ;
+    height: 375px;
+
 }
-
-.twitter-area h1{
-    width: 280px;
-    height: 53px;
-    padding: 20pxs;
-  
-   
+.color{
+    color: white;
+    text-align: center;
+    padding-top: 185px;
 }
-
-
-
+.banner-card-2{
+        background-image: url(image/youtube.png);
+        background-size: cover;
+        background-repeat:no-repeat ;
+        height: 375px;
+    }
+    .banner-card-3{
+        background-image: url(image/facebook.png);
+        background-size: cover;
+        background-repeat:no-repeat ;
+        height: 375px;
+    }
+    .banner-card-4{
+        background-image: url(image/twitter.png);
+        background-size: cover;
+        background-repeat:no-repeat ;
+        height: 375px;
+    }
+    /* box-area-end */
+/* footer-area-start */
+    .circle{
+        border: 1px solid white;
+        height: 80px;
+        width: 80px;
+        border-radius:50% ;
+        
+    }
+    .bttn{
+       margin-top: -60px;
+    }
+    .position{
+        padding-top: 50px;
+      
+    }
+    .position-1{
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    /* footer-area-start */
+    @media screen and (max-width:912px) {
+        .background-image {
+            height:400px;
+        }
+        .background-image-two{
+            height:400px;
+        }
+        .background-image-three{
+            height: 400px;
+        }
+        .background-image-four{
+            height: 400px;
+        }
+    }
+    @media screen and (max-width:640px) {
+        .background-image {
+            height:200px;
+        }
+        .background-image-two{
+            height:200px;
+        }
+        .background-image-three{
+            height: 200px;
+        }
+        .background-image-four{
+            height: 200px;
+        }
+    }
