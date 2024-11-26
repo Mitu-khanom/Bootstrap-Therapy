@@ -26,19 +26,22 @@ padding: 5% 0 0 5% ;
     height: 83px;
     top: 236px;
     left: 112px;
-    gap: 0px;
-    opacity: 0px;
-
    letter-spacing: 15px;
-   padding: 20px;
+   padding: 15px;
 }
 .banner-area p{
     background-color: white;
     width: 499px;
-    padding: 50px;
+    padding: 30px;
     letter-spacing: 1px;
 }
 /* banner-area-end */
+.text-center{
+    padding-top: 20px;
+}
+.btn{
+    margin: 10px 0 10px 0;
+}
 /* service-area-start */
 .banner-services{
     background-image: url(image/services.png);
@@ -56,18 +59,15 @@ padding: 5% 0 0 5% ;
     height: 83px;
     top: 236px;
     left: 112px;
-    gap: 0px;
-    letter-spacing: 15px;
     padding: 20px;
 }
 .services-area p{
     background-color: white;
     width: 1134px;
-    height: 93px;
+    height: 80px;
     top: 1692px;
     left: 112px;
-    gap: 0px;
-    opacity: 0px;
+    padding-top: 25px;
 }
 /* service-area-end */
 /* about-us-start */
@@ -96,11 +96,11 @@ padding: 5% 0 0 5% ;
 .about-us-area p{
     background-color: white;
     width: 1134px;
-    height: 93px;
+    height: 50px;
     top: 1692px;
     left: 112px;
-    gap: 0px;
-    opacity: 0px;
+    padding-top: 15px;
+  
 }
 /* about-us-end */
  /* our-team-start */
@@ -110,6 +110,9 @@ padding: 5% 0 0 5% ;
     padding-bottom: 20px;
 }
 /* our-team-end */
+.coloumn-2{
+    padding-left: 20px;
+}
 /* social-area-start */
 .banner-social{
     background-image: url(image/social.png);   
@@ -136,9 +139,8 @@ padding: 5% 0 0 5% ;
     width: 430px;
     height: 68px;
     top: 1692px;
-    left: 112px;
-    gap: 0px;
-    opacity: 0px;
+    padding-top: 20PX;
+   
 }
 /* social-area-end */
 .showing{
